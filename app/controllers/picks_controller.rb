@@ -28,7 +28,7 @@ class PicksController < ApplicationController
             :team_1,
             :team_2,
             :sport,
-            :time,
+            :time
         )
 
 end
