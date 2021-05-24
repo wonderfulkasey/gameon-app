@@ -13,6 +13,9 @@ class PicksController < ApplicationController
     end 
 
     def create 
+        @pick = Pick.new(pick_params)
+        @pick.save 
+        
         if @pick.save
             flash[:notice] = "Pick was created."
             redirect_to pick_path(@pick)
