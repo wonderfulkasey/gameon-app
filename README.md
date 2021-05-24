@@ -3,7 +3,7 @@
 * In Ruby on Rails.
 * Forms for creating, updating, and deleting picks.
 * Ability to display and select picks.
-* Testing.
+* Testing/games added.
 
 # STEPS
 * 1: (Go by the git commits.)
