@@ -5,13 +5,21 @@
 * Ability to display and select picks.
 * Testing/games added.
 
-# STEPS
-* 1: (Go by the git commits.)
 
+# STEPS
+* 0: For me, the first step is to plan out the application. I take a sheet of paper and brainstorm exactly what I need - what is gonna be in my controller, model, schema, etc. I also plan how I want it to look once it's finished and in the browser.
+
+* 1: The first thing I do inside of the actual code is adding the "skeleton" of the app. My previous step lets me add the basics of what I need - the controller actions, a file of forms I'll have to make, and my routes.
+
+* 2: After I generate the model and controller for the picks, I migrate them using 'rails db:migrate'. I also add simple css styling so that it's a little nicer to look at.
+
+* 3: Now, I fill in the blanks - first I go through and fill out all the controller actions, and make sure I have the correct params. Then I fill in my views so that it'll all load correctly and look nice. 
+
+* 4: Finally, I add the finishing touches - I change the titles to be more descriptive, and I add a 'PICK' button on the show page. The last thing I do is update my README accordingly, and add my instructions, as well as my notes.
 
 
 # YOUTUBE LINK
-* 
+* https://youtu.be/qrnGgaF-GHI
 
 
 # NOTES
