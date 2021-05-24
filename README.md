@@ -10,29 +10,20 @@
 
 
 
+# YOUTUBE LINK
+* 
 
 
-# README
+# NOTES
+* If I were to continue this project, the first thing I'd do on the backend is create users. (Using Devise and perhaps Facebook authentication.) This would enable me to add functions like "save this pick", or to bookmark games you would be interested in.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* I would also connect the list of games to a sport API so it wouldn't have to be manually updated. I would also create 'tabs' for each individual sport.
 
-Things you may want to cover:
+* Purely aesthetics wise I would add icons to the different functions I would be adding - such as a hockey stick to the hockey game tabs, an info button at the bottom about GameOn, and a face where your account details would be.
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# HOW TO INSTALL:
+- Clone this repository. 
+- Run 'bundle'.
+- Run 'rails s'.
+- Open localhost:3000 on your browser.
