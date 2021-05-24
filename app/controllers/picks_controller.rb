@@ -5,7 +5,7 @@ class PicksController < ApplicationController
     end
 
     def show
-        pick = Pick.find(params[:id])
+        @pick = Pick.find(params[:id])
     end 
 
     def new 
