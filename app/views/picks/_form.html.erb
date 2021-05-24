@@ -1,0 +1,15 @@
+<%= form_for(pick) do |f| %>
+    <label class="label">Team 1:</label>
+    <%= f.text_field :team_1 %><br><br>
+
+    <label class="label">Team 2:</label>
+    <%= f.text_field :team_2 %><br><br>
+
+    <label class="label">Sport:</label>
+    <%= f.text_field :sport %><br><br>
+
+    <label class="label">Time:</label>
+    <%= f.text_field :time %><br><br>
+
+    <input type="submit" value="Submit" class="button is-primary">
+<% end %>
