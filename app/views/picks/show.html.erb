@@ -1,0 +1,32 @@
+<br>
+    <%= link_to "EDIT PICK", edit_pick_path(@pick) %> <br>
+<br>
+
+
+<br>
+
+<p>
+  <strong>Team 1:</strong>
+  <%= @pick.team_1 %>
+   </p>
+ 
+<p>
+  <strong>Team 2:</strong>
+  <%= @pick.team_2 %>
+</p>
+ 
+<p>
+  <strong>Sport:</strong>
+  <%= @pick.sport %>
+</p>
+ 
+<p>
+  <strong>Time:</strong>
+  <%= @pick.time %>
+</p>
+<br>
+
+<h2>
+<%= link_to 'BACK', picks_path %>
+
+</h2>
